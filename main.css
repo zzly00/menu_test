@@ -12,8 +12,8 @@ html,body,ul{
   top: 0;
   left: 0;
   /* overflow-y: scroll; */
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
+  /* overflow-y: auto;
+  -webkit-overflow-scrolling: touch; */
   z-index: 2;
 }
 .forScroll{
@@ -28,7 +28,7 @@ html,body,ul{
     width: 100%;
     min-height: 101%;
     z-index: 1;
-    overflow-y: auto;
+    overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
     position: absolute;
     top: 0;
@@ -54,5 +54,5 @@ html,body,ul{
 }
 .m_header{
   height: 100%;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
 }
