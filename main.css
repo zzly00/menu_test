@@ -61,7 +61,9 @@ html,body,ul{
 }
 
 .body_fix{
-  position: fixed;
+  overflow: hidden;
+  height: 100%;
+  /* position: fixed; */
 }
 .main_fix{
   /* position: fixed; */
