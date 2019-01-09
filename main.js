@@ -6,7 +6,8 @@ let main = document.querySelector('.main');
 let forScroll = document.querySelector('.forScroll');
 
 icon.addEventListener('click',function(){
-  box.classList.toggle('show');
+  console.log('aaa')
+  // box.classList.toggle('show');
   header.classList.toggle('m_header');
 
   main.classList.toggle('main_fix');

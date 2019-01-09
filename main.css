@@ -28,18 +28,18 @@ html,body,ul{
   -webkit-overflow-scrolling: touch;
 }
 .box{
-    list-style: none;
-    display: none;
-    padding: 10px;
-    width: 100%;
-    min-height: 101%;
-    z-index: 1;
-    /* overflow-y: scroll;
-    -webkit-overflow-scrolling: touch; */
-    /* position: absolute;
-    top: 0;
-    left: 0; */
-    box-sizing: border-box;
+  list-style: none;
+  /* display: none; */
+  padding: 10px;
+  width: 100%;
+  min-height: 101%;
+  z-index: 1;
+  /* overflow-y: scroll;
+  -webkit-overflow-scrolling: touch; */
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+  box-sizing: border-box;
 }
 .icon{
   padding: 5px;
@@ -47,6 +47,7 @@ html,body,ul{
   top: 0;
   border: 1px solid;
   right: 10px;
+  z-index: 3;
 }
 
 .show{
@@ -63,7 +64,9 @@ html,body,ul{
   /* overflow-y: hidden; */
 }
 .main_fix{
-  position: fixed;
+  /* position: fixed; */
+  overflow-y: hidden;
+  height: 100vh;
 }
 .m_header{
   height: 100%;
