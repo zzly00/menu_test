@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+  body {
+  background: #E9F2F9;
+  font-family: sans-serif;
+}
+
+.content {
+  border-top: 15px solid #9CC4E4;
+  position: relative;
+  font-size: 20px;
+  padding: 50px;
+}
+
+p {
+  margin-bottom: 25px;
+}
+
+ul {
+  margin: 40px 20px;
+}
+
+button {
+  appearance: none;
+  background: none;
+  border: none;
+  color: #3A89C9;
+  padding: 0;
+}
+
+button:hover {
+  color: #F26C4F;
+}
+
+#overlay {
+  background: rgba(156,196,228,0.85);
+  bottom: 0;
+  color: black;
+  display: none;
+  font-size: 20px;
+  left: 0;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: 90px 50px 50px;
+  position: fixed;
+  right: 0;
+  text-shadow: 0 1px 0 rgba(233,242,249,0.5);
+  top: 0;
+}
+
+body.overlay-open #overlay{
+    display: block;
+}
+
+.close {
+  background: none;
+  color: black;
+  opacity: 1;
+  padding: 0;
+  position: absolute;
+  right: 50px;
+  top: 50px;
+}
+  </style>
+</head>
+<body>
+  <div class="content">
+    <div class="content-inner">
+      <p>Suspendisse eu ligula. Nulla porta dolor. Ut non enim eleifend felis pretium feugiat. Curabitur turpis. Vestibulum eu odio.Curabitur vestibulum aliquam leo. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Vestibulum fringilla pede sit amet augue. Quisque ut nisi. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla.</p>
+  
+      <p>Suspendisse eu ligula. Nulla porta dolor. Ut non enim eleifend felis pretium feugiat. Curabitur turpis. Vestibulum eu odio.Curabitur vestibulum aliquam leo. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Vestibulum fringilla pede sit amet augue. Quisque ut nisi. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla.</p>
+  
+      <ul id="list">
+        <li><button type="button">Open Modal One</button></li>
+        <li><button type="button">Open Modal Two</button></li>
+        <li><button type="button">Open Modal Three</button></li>
+        <li><button type="button">Open Modal Four</button></li>
+        <li><button type="button">Open Modal Five</button></li>
+      </ul>
+  
+      <p>Suspendisse eu ligula. Nulla porta dolor. Ut non enim eleifend felis pretium feugiat. Curabitur turpis. Vestibulum eu odio.Curabitur vestibulum aliquam leo. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Vestibulum fringilla pede sit amet augue. Quisque ut nisi. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla.</p>
+  
+      <p>Suspendisse eu ligula. Nulla porta dolor. Ut non enim eleifend felis pretium feugiat. Curabitur turpis. Vestibulum eu odio.Curabitur vestibulum aliquam leo. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Vestibulum fringilla pede sit amet augue. Quisque ut nisi. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla.</p>
+      
+      <p>Suspendisse eu ligula. Nulla porta dolor. Ut non enim eleifend felis pretium feugiat. Curabitur turpis. Vestibulum eu odio.Curabitur vestibulum aliquam leo. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Vestibulum fringilla pede sit amet augue. Quisque ut nisi. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla.</p>
+    </div>
+  </div>
+  
+  <div id="overlay">
+    <button type="button" class="close">Close</button>
+    
+    <p>Pellentesque egestas, neque sit amet convallis pulvinar, justo nulla eleifend augue, ac auctor orci leo non est. Fusce fermentum. Suspendisse non nisl sit amet velit hendrerit rutrum. Etiam sit amet orci eget eros faucibus tincidunt. Suspendisse feugiat.Pellentesque egestas, neque sit amet convallis pulvinar, justo nulla eleifend augue, ac auctor orci leo non est. Fusce fermentum. Suspendisse non nisl sit amet velit hendrerit rutrum. Etiam sit amet orci eget eros faucibus tincidunt. Suspendisse feugiat.</p>
+  
+    <p>Pellentesque egestas, neque sit amet convallis pulvinar, justo nulla eleifend augue, ac auctor orci leo non est. Fusce fermentum. Suspendisse non nisl sit amet velit hendrerit rutrum. Etiam sit amet orci eget eros faucibus tincidunt. Suspendisse feugiat.Pellentesque egestas, neque sit amet convallis pulvinar, justo nulla eleifend augue, ac auctor orci leo non est. Fusce fermentum. Suspendisse non nisl sit amet velit hendrerit rutrum. Etiam sit amet orci eget eros faucibus tincidunt. Suspendisse feugiat.</p>
+    
+    <p>Pellentesque egestas, neque sit amet convallis pulvinar, justo nulla eleifend augue, ac auctor orci leo non est. Fusce fermentum. Suspendisse non nisl sit amet velit hendrerit rutrum. Etiam sit amet orci eget eros faucibus tincidunt. Suspendisse feugiat.Pellentesque egestas, neque sit amet convallis pulvinar, justo nulla eleifend augue, ac auctor orci leo non est. Fusce fermentum. Suspendisse non nisl sit amet velit hendrerit rutrum. Etiam sit amet orci eget eros faucibus tincidunt. Suspendisse feugiat.</p>
+    
+    <p>Pellentesque egestas, neque sit amet convallis pulvinar, justo nulla eleifend augue, ac auctor orci leo non est. Fusce fermentum. Suspendisse non nisl sit amet velit hendrerit rutrum. Etiam sit amet orci eget eros faucibus tincidunt. Suspendisse feugiat.Pellentesque egestas, neque sit amet convallis pulvinar, justo nulla eleifend augue, ac auctor orci leo non est. Fusce fermentum. Suspendisse non nisl sit amet velit hendrerit rutrum. Etiam sit amet orci eget eros faucibus tincidunt. Suspendisse feugiat.</p>
+  </div>
+
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script>
+  $(document).ready(function() {
+  var $docEl = $('html, body'),
+    $wrap = $('.content'),
+    scrollTop;
+
+  $('button').click(function(e) {
+    overlayOpen();
+    e.preventDefault();
+  });
+
+  $('.close').click(function(e) {
+    overlayClose();
+    e.preventDefault();
+  });
+  
+  var overlayClose = function() {
+    $.unlockBody();
+    $('body').removeClass('overlay-open');
+  }
+  var overlayOpen = function() {
+    $('body').addClass('overlay-open');
+    $.lockBody();
+  }
+
+  $.lockBody = function() {
+    if(window.pageYOffset) {
+      scrollTop = window.pageYOffset;
+      
+      $wrap.css({
+        top: - (scrollTop)
+      });
+    }
+
+    $docEl.css({
+      height: "100%",
+      overflow: "hidden"
+    });
+  }
+
+  $.unlockBody = function() {
+    $docEl.css({
+      height: "",
+      overflow: ""
+    });
+
+    $wrap.css({
+      top: ''
+    });
+
+    window.scrollTo(0, scrollTop);
+    window.setTimeout(function () {
+      scrollTop = null;
+    }, 0);
+
+  }
+});
+  </script>
+</body>
+</html>
