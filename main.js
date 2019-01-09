@@ -14,6 +14,7 @@ icon.addEventListener('click',function(){
   forScroll.classList.toggle('open');
 
   document.body.classList.toggle('test');
+  document.documentElement.classList.toggle('test');
 //   $('html, body').css({
 //     overflow: 'hidden',
 //     height: '100%'
