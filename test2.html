@@ -55,7 +55,9 @@
   display: block;
 }
 .body_fix{
-  position: fixed;
+  /* position: fixed; */
+  overflow-y: hidden;
+  height: 100vh;
 }
 .m_header{
   height: 100%;
@@ -287,6 +289,7 @@ icon.addEventListener('click',function(){
   box.classList.toggle('show');
   header.classList.toggle('m_header');
   document.body.classList.toggle('body_fix');
+  document.documentElement.classList.toggle('body_fix');
 
 });
 let boxLi = document.querySelectorAll('.box > Li');
