@@ -14,7 +14,7 @@ html,body,ul{
   /* overflow-y: scroll; */
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
-  
+  z-index: 1;
 }
 .box{
     list-style: none;
@@ -22,6 +22,7 @@ html,body,ul{
     padding: 10px;
     width: 80%;
     min-height: 101%;
+    z-index: 1;
 }
 .icon{
   padding: 5px;
