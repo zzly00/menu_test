@@ -12,17 +12,26 @@ html,body,ul{
   top: 0;
   left: 0;
   /* overflow-y: scroll; */
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
+  /* overflow-y: auto;
+  -webkit-overflow-scrolling: touch; */
+  z-index: 2;
+}
+.forScroll{
   z-index: 1;
+  width: 100%;	
 }
 .box{
     list-style: none;
     display: none;
     padding: 10px;
-    width: 80%;
+    width: 100%;
     min-height: 101%;
     z-index: 1;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .icon{
   padding: 5px;
