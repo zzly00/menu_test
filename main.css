@@ -61,13 +61,14 @@ html,body,ul{
 }
 
 .body_fix{
-  position: fixed;
-  /* overflow-y: hidden; */
+  /* position: fixed; */
+  overflow-y: hidden;
+  height: 100vh;
 }
 .main_fix{
-  position: fixed;
-  /* overflow-y: hidden; */
-  /* height: 100vh; */
+  /* position: fixed; */
+  overflow-y: hidden;
+  height: 100vh;
 }
 .m_header{
   height: 100%;
