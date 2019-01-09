@@ -50,8 +50,11 @@ html,body,ul{
 }
 
 .body_fix{
-  /* position: fixed; */
+  position: fixed;
   /* overflow-y: hidden; */
+}
+.main_fix{
+  position: fixed;
 }
 .m_header{
   height: 100%;

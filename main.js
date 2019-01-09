@@ -6,5 +6,5 @@ icon.addEventListener('click',function(){
   box.classList.toggle('show');
   header.classList.toggle('m_header');
 
-  main.classList.toggle('body_fix');
+  main.classList.toggle('main_fix');
 });
