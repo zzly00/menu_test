@@ -22,6 +22,20 @@
     top: 50px;
     width: 100%;
 }
+.scrollDivWrap_test {
+    /* z-index: 1; */
+    width: 100%;	
+}
+.scrollDiv_test {
+    overflow: auto;
+    background-color: green;
+    -webkit-overflow-scrolling: touch;
+    /* z-index: 1; */
+    position: absolute;
+    padding: 0;
+    top: 50px;
+    width: 100%;
+}
 header {
     height: 50px; 
     background-color: yellow;
@@ -37,8 +51,8 @@ header {
 
 <body>
     <header>
-      <div class="scrollDivWrap">
-        <div class="scrollDiv">
+      <div class="scrollDivWrap_test">
+        <div class="scrollDiv_test">
           <ul class="box">
             <li>項目1</li>
             <li>項目2</li>
