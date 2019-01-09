@@ -12,7 +12,8 @@ html,body,ul{
   top: 0;
   left: 0;
   /* overflow-y: scroll; */
-  
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
   
 }
 .box{
@@ -21,9 +22,6 @@ html,body,ul{
     padding: 10px;
     width: 80%;
     min-height: 101%;
-    position: static;
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
 }
 .icon{
   padding: 5px;
