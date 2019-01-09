@@ -18,7 +18,8 @@ html,body,ul{
 }
 .forScroll{
   z-index: 1;
-  width: 100%;	
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
 }
 .box{
     list-style: none;
@@ -32,6 +33,7 @@ html,body,ul{
     position: absolute;
     top: 0;
     left: 0;
+    box-sizing: border-box;
 }
 .icon{
   padding: 5px;
