@@ -12,9 +12,9 @@ icon.addEventListener('click',function(){
   // main.classList.toggle('main_fix');
 
   forScroll.classList.toggle('open');
-  document.body.classList.toggle('body_fix');
-  // document.body.classList.toggle('test');
-  // document.documentElement.classList.toggle('test');
+  // document.body.classList.toggle('body_fix');
+  document.body.classList.toggle('test');
+  document.documentElement.classList.toggle('test');
 //   $('html, body').css({
 //     overflow: 'hidden',
 //     height: '100%'
