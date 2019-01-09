@@ -13,7 +13,9 @@ icon.addEventListener('click',function(){
 
   forScroll.classList.toggle('open');
 
-  main.addEventListener('touchmove', function (e) {
-    e.preventDefault(); //阻止默认的处理方式(阻止下拉滑动的效果)
-  }, {passive: false}); //passive 参数不能省略，用来兼容ios和android
+  document.body.classList.toggle('test');
+//   $('html, body').css({
+//     overflow: 'hidden',
+//     height: '100%'
+// });
 });

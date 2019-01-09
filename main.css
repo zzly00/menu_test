@@ -74,3 +74,8 @@ html,body,ul{
   height: 100%;
   /* overflow-y: scroll; */
 }
+
+.test{
+  overflow: hidden;
+    height: 100%;
+}
