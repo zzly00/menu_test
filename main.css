@@ -36,7 +36,8 @@ html,body,ul{
 }
 
 .body_fix{
-  position: fixed;
+  /* position: fixed; */
+  overflow-y: hidden;
 }
 .m_header{
   height: 100%;
