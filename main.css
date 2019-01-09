@@ -19,6 +19,7 @@ html,body,ul{
 .forScroll{
   z-index: 1;
   width: 100%;
+  overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
 }
 .box{
