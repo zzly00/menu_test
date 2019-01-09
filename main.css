@@ -20,8 +20,7 @@ html,body,ul{
 .forScroll{
   position: absolute;
   top: 0;
-  top: 0;
-  left: 0;
+  right: -100%;
   z-index: 1;
   width: 100%;
   height: 100%;
@@ -37,9 +36,9 @@ html,body,ul{
     z-index: 1;
     /* overflow-y: scroll;
     -webkit-overflow-scrolling: touch; */
-    position: absolute;
+    /* position: absolute;
     top: 0;
-    left: 0;
+    left: 0; */
     box-sizing: border-box;
 }
 .icon{
@@ -53,6 +52,10 @@ html,body,ul{
 .show{
   display: inline-block;
   min-height: 101%;
+}
+.open {
+  opacity: 1;
+  right: 0;
 }
 
 .body_fix{
