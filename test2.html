@@ -327,16 +327,9 @@ function lockBody() {
 }
 
 function openBody() {
-  console.log('open')
-  // window.scrollTo(0, scrollTop);
   content.style.top = '';
-  console.log(scrollTop)
-  window.scrollTo(0, 400);
-  console.log(window)
-  console.log(window.pageYOffset)
-  window.setTimeout(function () {
-    scrollTop = null;
-  }, 0);
+  window.scrollTo(0, scrollTop);
+  // scrollTop = null;
 }
 
 </script>
